@@ -4,7 +4,11 @@ Boggle
 Copyright 2011 Lawrence Kesteloot. Not affiliated with Hasbro or Boggle.
 
 Generates Boogle boards and solves them using a variety of data structures
-and algorithms. The options are:
+and algorithms. Run with:
+
+    % python boggle.py
+
+The solvers are:
 
 1. **TrieDictionary**. This is a standard Trie. It takes forever to build, probably
     because of the node creation time in Python. It's the fastest to search.
