@@ -1,3 +1,4 @@
+# Copyright 2011 Lawrence Kesteloot
 
 """Methods for manipulating and searching a single string that's a bunch of words, each
 terminated by a \n."""
