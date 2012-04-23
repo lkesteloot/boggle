@@ -39,7 +39,7 @@ The solvers are:
 5. **ProgressiveTextBinarySearchDictionary**. This is the same algorithm as
     the progressive binary search, but it operates
     on a single string of words, each terminated by a \n. It's quite slow to search, because
-    each little operating must move forward or backward one word by scanning letters. The
+    each little operation must move forward or backward one word by scanning letters. The
     advantage is that creating it is just loading the file into memory with no processing,
     saving both time and memory.
 
